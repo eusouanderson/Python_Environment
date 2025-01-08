@@ -5,7 +5,7 @@ FROM python:3.13
 RUN apt-get update && apt-get install -y curl bash
 
 # Instalar o Nano
-RUN apt-intall -y nano
+RUN apt-get install -y nano
 
 # Instalar o Poetry 1.8.2
 RUN curl -sSL https://install.python-poetry.org | python3 - --version 1.8.2
